@@ -16,7 +16,7 @@ public class PA2 {
         double[] descuentos = new double[2];
         double[] totales = new double[2];
 
-        // Bucle para ingresar datos de dos productos
+
         for (int i = 0; i < 2; i++) {
             System.out.println("\nProducto " + (i + 1));
             System.out.print("Nombre del producto: ");
@@ -27,7 +27,7 @@ public class PA2 {
 
             System.out.print("Cantidad: ");
             cantidades[i] = sc.nextInt();
-            sc.nextLine(); // Limpia el buffer
+            sc.nextLine(); 
 
             // Calcula el subtotal
             subtotales[i] = precios[i] * cantidades[i];
