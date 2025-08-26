@@ -1,8 +1,8 @@
-import java.util.Scanner; // Importa la clase Scanner para entrada de datos
+import java.util.Scanner; 
 
 public class PA2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // Crea el objeto Scanner
+        Scanner sc = new Scanner(System.in); 
 
         // Solicita el nombre del cliente
         System.out.print("Ingrese nombre del cliente: ");
@@ -62,6 +62,6 @@ public class PA2 {
         System.out.printf("TOTAL A PAGAR: %.2f\n", totalPagar);
         System.out.println("-----------------------------------------------------");
 
-        sc.close(); // Cierra el Scanner
+        sc.close(); 
     }
 }
